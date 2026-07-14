@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,15 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Uint64 } from '@stdlib/types/number';
 
 /**
 * Returns an unsigned 32-bit integer corresponding to the high 32-bit word of a 64-bit unsigned integer.
 *
-* @param {Uint64} x - input value
-* @returns {uinteger32} higher order word
+* @param x - input value
+* @returns higher order word (unsigned 32-bit integer)
 *
 * @example
 * var Uint64 = require( '@stdlib/number-uint64-ctor' );
@@ -33,11 +35,9 @@
 * var w = getHighWord( x );
 * // returns 1
 */
-function getHighWord( x ) {
-	return x.hi;
-}
+declare function getHighWord( x: Uint64 ): number;
 
 
 // EXPORTS //
 
-module.exports = getHighWord;
+export = getHighWord;
