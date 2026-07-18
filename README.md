@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@esm/index.mjs';
+import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@v0.0.0-esm/index.mjs';
 ```
 
 #### getHighWord( x )
@@ -74,7 +74,7 @@ var w = getHighWord( x );
 <script type="module">
 
 import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@esm/index.mjs';
-import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@esm/index.mjs';
+import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@v0.0.0-esm/index.mjs';
 
 var x = new Uint64( 4294967296 );
 console.log( getHighWord( x ) );
