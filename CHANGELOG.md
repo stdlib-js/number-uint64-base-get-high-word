@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e21ba43`](https://github.com/stdlib-js/stdlib/commit/e21ba430d5878359c3133d90412b70a9c7259514) - **docs:** update descriptions _(by Athan Reines)_
 -   [`073155c`](https://github.com/stdlib-js/stdlib/commit/073155c51f24e47c96c3105e346247a988e8e0ac) - **docs:** update descriptions _(by Athan Reines)_
 -   [`789169a`](https://github.com/stdlib-js/stdlib/commit/789169abfd72c26cb403d699e0d3379005d04974) - **docs:** rename variable _(by Athan Reines)_
 -   [`059dffa`](https://github.com/stdlib-js/stdlib/commit/059dffa1f48e361055345bfeba6bd8f7dfe08d3b) - **chore:** clean-up [(#13450)](https://github.com/stdlib-js/stdlib/pull/13450) _(by Philipp Burckhardt, Athan Reines)_
