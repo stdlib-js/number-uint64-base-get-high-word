@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-uint64-base-get-high-word/tags). For example,
+
+```javascript
 import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@v0.0.0-deno/mod.js';
 ```
 
@@ -69,7 +74,7 @@ var w = getHighWord( x );
 
 ```javascript
 import Uint64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-ctor@deno/mod.js';
-import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@v0.0.0-deno/mod.js';
+import getHighWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint64-base-get-high-word@deno/mod.js';
 
 var x = new Uint64( 4294967296 );
 console.log( getHighWord( x ) );
